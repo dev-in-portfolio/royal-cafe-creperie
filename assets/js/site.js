@@ -1,6 +1,6 @@
 /**
  * Royal Cafe & Creperie - Official Site Script
- * Centralized Business Config & Client Navigation
+ * Centralized Business Config & Navigation
  */
 
 (function() {
@@ -16,8 +16,7 @@
     hours: 'Everyday: 9:00 AM – 3:00 PM',
     orderUrl: 'https://royalcreperie.smartonlineorder.com',
     mapsUrl: 'https://maps.google.com/?q=131+Matthews+Station+Street+Suite+1-E+Matthews+NC+28105',
-    facebookUrl: 'https://www.facebook.com/royal.creperie',
-    twitterUrl: 'https://twitter.com/royalcreperie'
+    facebookUrl: 'https://www.facebook.com/royal.creperie'
   };
 
   document.addEventListener('DOMContentLoaded', function() {
@@ -40,7 +39,7 @@
       });
     }
 
-    // Accessible focus outlining for keyboard users
+    // Accessible focus outlining for keyboard navigation
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Tab') {
         document.body.classList.add('user-is-tabbing');

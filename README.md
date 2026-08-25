@@ -20,8 +20,8 @@ This is the dedicated production repository for **Royal Cafe & Creperie** (`ROYA
 
 ```text
 royal-cafe-creperie/
-├── index.html          # Homepage with conversion CTAs and pillar offerings
-├── menu.html           # Category menu landing with live ordering integration
+├── index.html          # Homepage with conversion CTAs and core offerings
+├── menu.html           # High-level category menu landing with Smart Online Order CTA
 ├── about.html          # Family roots, philosophy, and pending owner narrative
 ├── contact.html        # Verified hours, address, maps, and real Netlify contact form
 ├── thank-you.html      # Form submission confirmation page
@@ -34,9 +34,9 @@ royal-cafe-creperie/
 │   └── images/
 │       ├── favicon.svg # Vector brand mark favicon
 │       ├── hero.jpg    # Web-optimized hero photography
-│       ├── food/       # Food photography assets
-│       ├── interior/   # Cafe interior photography assets
-│       └── story/      # Owner/family photography assets
+│       ├── food/       # Prepared folder for client food photography
+│       ├── interior/   # Prepared folder for client interior photography
+│       └── story/      # Prepared folder for client founder/family photography
 ├── netlify.toml        # Build rules, security headers, and legacy Weebly 301 redirects
 ├── robots.txt          # Search engine crawler instructions
 ├── sitemap.xml         # XML sitemap
