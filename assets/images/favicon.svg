@@ -1,0 +1,16 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="burgundyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B1E1E"/>
+      <stop offset="100%" stop-color="#5B0E0E"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5AB"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA820A"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#burgundyGrad)" stroke="url(#goldGrad)" stroke-width="2"/>
+  <path d="M 20 22 L 25 27 L 32 19 L 39 27 L 44 22 L 41 30 L 23 30 Z" fill="url(#goldGrad)"/>
+  <text x="32" y="51" font-family="'Outfit', Georgia, serif" font-size="26" font-weight="800" fill="url(#goldGrad)" text-anchor="middle">R</text>
+</svg>

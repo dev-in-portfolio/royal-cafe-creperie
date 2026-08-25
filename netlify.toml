@@ -1,0 +1,60 @@
+﻿[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[redirects]]
+  from = "/about-us.html"
+  to = "/about.html"
+  status = 301
+
+[[redirects]]
+  from = "/about-us"
+  to = "/about.html"
+  status = 301
+
+[[redirects]]
+  from = "/contact-info-and-hours.html"
+  to = "/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/contact-info-and-hours"
+  to = "/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/services.html"
+  to = "/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/services"
+  to = "/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/menu"
+  to = "/menu.html"
+  status = 301
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
