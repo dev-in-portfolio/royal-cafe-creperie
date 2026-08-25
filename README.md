@@ -1,4 +1,4 @@
-﻿# Royal Cafe & Creperie — Official Client Website
+# Royal Cafe & Creperie — Official Client Website
 
 This is the dedicated production repository for **Royal Cafe & Creperie** (`ROYAL CAFE AND CREPERIE LLC`), located in historic Downtown Matthews, North Carolina.
 
