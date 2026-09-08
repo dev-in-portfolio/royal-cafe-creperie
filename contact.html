@@ -60,21 +60,21 @@
   }
   </script>
 </head>
-<body>
+<body class="has-mobile-order-bar">
 
   <!-- Top Announcement Bar -->
   <div class="top-bar">
     <div class="container top-bar-inner">
       <div class="top-bar-item">
-        <span>🕒</span>
+        <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#clock"></use></svg>
         <span>Open Daily: 9:00 AM – 3:00 PM</span>
       </div>
       <div class="top-bar-item">
-        <span>📍</span>
+        <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#location"></use></svg>
         <span>131 Matthews Station St, Suite 1-E, Matthews, NC</span>
       </div>
       <div class="top-bar-item">
-        <span>📞</span>
+        <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg>
         <a href="tel:19807010566">(980) 701-0566</a>
       </div>
     </div>
@@ -86,12 +86,12 @@
       <a href="index.html" class="brand-link" aria-label="Royal Cafe & Creperie Home">
         <div class="brand-info">
           <span class="brand-title">Royal Cafe</span>
-          <span class="brand-tagline">& Creperie • Matthews, NC</span>
+          <span class="brand-tagline">& Creperie <span class="brand-location">Matthews, NC</span></span>
         </div>
       </a>
 
       <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-        ☰
+        <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#menu"></use></svg>
       </button>
 
       <ul class="nav-menu">
@@ -129,7 +129,7 @@
         <h2 class="section-title" style="font-size: 1.85rem; margin-bottom: 1.5rem;">Cafe Details</h2>
 
         <div class="info-group">
-          <div class="info-label">📍 Street Address</div>
+          <div class="info-label"><svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#location"></use></svg> Street Address</div>
           <div class="info-value">
             <strong>Royal Cafe & Creperie</strong><br>
             131 Matthews Station Street, Suite 1-E<br>
@@ -137,20 +137,20 @@
           </div>
           <div style="margin-top: 0.75rem;">
             <a href="https://maps.google.com/?q=131+Matthews+Station+Street+Suite+1-E+Matthews+NC+28105" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold btn-sm">
-              Open in Google Maps ➔
+              Open in Google Maps <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg>
             </a>
           </div>
         </div>
 
         <div class="info-group">
-          <div class="info-label">🕒 Operating Hours</div>
+          <div class="info-label"><svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#clock"></use></svg> Operating Hours</div>
           <div class="info-value">
             <strong>Monday – Sunday:</strong> 9:00 AM – 3:00 PM
           </div>
         </div>
 
         <div class="info-group">
-          <div class="info-label">📞 Phone</div>
+          <div class="info-label"><svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg> Phone</div>
           <div class="info-value">
             <a href="tel:19807010566" style="color: var(--color-red); font-size: 1.2rem; font-weight: 800;">
               (980) 701-0566
@@ -159,22 +159,22 @@
         </div>
 
         <div class="info-group">
-          <div class="info-label">🥞 Food & Drink Ordering</div>
+          <div class="info-label"><svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#crepe"></use></svg> Food & Drink Ordering</div>
           <div class="info-value" style="font-size: 0.95rem; color: var(--color-text-muted);">
             To place a food or drink order for pickup, please use our online ordering system. Orders are prepared fresh for counter pickup.
           </div>
           <div style="margin-top: 0.75rem;">
             <a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
-              Smart Online Order Portal ➔
+              Smart Online Order Portal <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg>
             </a>
           </div>
         </div>
 
         <div class="info-group">
-          <div class="info-label">🌐 Social Community</div>
+          <div class="info-label"><svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#instagram"></use></svg> Social Community</div>
           <div class="footer-social" style="margin-top: 0.5rem;">
-            <a href="https://www.facebook.com/p/Royal-Cafe-Creperie-100063472723152/" target="_blank" rel="noopener noreferrer" class="social-btn" style="background-color: var(--color-red); color: #fff;" aria-label="Facebook">f</a>
-            <a href="https://www.instagram.com/royalcrepes" target="_blank" rel="noopener noreferrer" class="social-btn" style="background-color: var(--color-red); color: #fff;" aria-label="Instagram">◎</a>
+            <a href="https://www.facebook.com/p/Royal-Cafe-Creperie-100063472723152/" target="_blank" rel="noopener noreferrer" class="social-btn" style="background-color: var(--color-red); color: #fff;" aria-label="Facebook"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#facebook"></use></svg></a>
+            <a href="https://www.instagram.com/royalcrepes" target="_blank" rel="noopener noreferrer" class="social-btn" style="background-color: var(--color-red); color: #fff;" aria-label="Instagram"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#instagram"></use></svg></a>
           </div>
         </div>
       </div>
@@ -228,14 +228,14 @@
 
             <div class="form-group-full">
               <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem;">
-                Send Message ➔
+                Send Message <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#arrow"></use></svg>
               </button>
             </div>
           </div>
         </form>
 
         <div style="margin-top: 1.5rem; padding: 1rem; background-color: var(--color-bg-alt); border-radius: var(--radius-sm); font-size: 0.85rem; color: var(--color-text-muted);">
-          ℹ️ <strong>Food Orders:</strong> For standard takeout orders, please order through <a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer" style="font-weight: 700;">Smart Online Order</a> for immediate kitchen processing.
+          <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#info"></use></svg> <strong>Food Orders:</strong> For standard takeout orders, please order through <a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer" style="font-weight: 700;">Smart Online Order</a> for immediate kitchen processing.
         </div>
       </div>
 
@@ -250,7 +250,7 @@
         </div>
         <iframe class="map-frame" title="Map showing Royal Cafe & Creperie at 131 Matthews Station Street in Matthews, North Carolina" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-80.723%2C35.114%2C-80.716%2C35.119&layer=mapnik&marker=35.11688%2C-80.71956" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         <div style="display: flex; justify-content: center; margin-top: 1rem;">
-          <a href="https://maps.google.com/?q=131+Matthews+Station+Street+Suite+1-E+Matthews+NC+28105" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold btn-sm">Open Google Maps Directions ➔</a>
+          <a href="https://maps.google.com/?q=131+Matthews+Station+Street+Suite+1-E+Matthews+NC+28105" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold btn-sm">Open Google Maps Directions <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg></a>
         </div>
       </div>
     </section>
@@ -269,6 +269,10 @@
     </section>
 
   </main>
+
+  <div class="mobile-order-bar" aria-label="Mobile ordering shortcut">
+    <a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer" class="btn btn-gold">Order Online <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg></a>
+  </div>
 
   <!-- Site Footer -->
   <footer class="site-footer">
@@ -293,27 +297,27 @@
             <li><a href="menu.html">Menu Overview</a></li>
             <li><a href="about.html">Our Story</a></li>
             <li><a href="contact.html">Visit & Contact</a></li>
-            <li><a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer">Order Online ↗</a></li>
+            <li><a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer">Order Online <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg></a></li>
           </ul>
         </div>
 
         <div class="footer-col">
           <h4>Visit & Contact</h4>
           <div class="footer-info-item">
-            <span>📍</span>
+            <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#location"></use></svg>
             <span>131 Matthews Station St, Suite 1-E<br>Matthews, NC 28105</span>
           </div>
           <div class="footer-info-item">
-            <span>🕒</span>
+            <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#clock"></use></svg>
             <span>Open Daily: 9:00 AM – 3:00 PM</span>
           </div>
           <div class="footer-info-item">
-            <span>📞</span>
+            <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg>
             <a href="tel:19807010566" style="color: var(--color-gold);">(980) 701-0566</a>
           </div>
           <div class="footer-social">
-            <a href="https://www.facebook.com/p/Royal-Cafe-Creperie-100063472723152/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">f</a>
-            <a href="https://www.instagram.com/royalcrepes" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">◎</a>
+            <a href="https://www.facebook.com/p/Royal-Cafe-Creperie-100063472723152/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#facebook"></use></svg></a>
+            <a href="https://www.instagram.com/royalcrepes" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#instagram"></use></svg></a>
           </div>
         </div>
       </div>

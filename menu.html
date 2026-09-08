@@ -36,21 +36,21 @@
   }
   </script>
 </head>
-<body>
+<body class="has-mobile-order-bar">
 
   <!-- Top Announcement Bar -->
   <div class="top-bar">
     <div class="container top-bar-inner">
       <div class="top-bar-item">
-        <span>🕒</span>
+        <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#clock"></use></svg>
         <span>Open Daily: 9:00 AM – 3:00 PM</span>
       </div>
       <div class="top-bar-item">
-        <span>📍</span>
+        <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#location"></use></svg>
         <span>131 Matthews Station St, Suite 1-E, Matthews, NC</span>
       </div>
       <div class="top-bar-item">
-        <span>📞</span>
+        <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg>
         <a href="tel:19807010566">(980) 701-0566</a>
       </div>
     </div>
@@ -62,12 +62,12 @@
       <a href="index.html" class="brand-link" aria-label="Royal Cafe & Creperie Home">
         <div class="brand-info">
           <span class="brand-title">Royal Cafe</span>
-          <span class="brand-tagline">& Creperie • Matthews, NC</span>
+          <span class="brand-tagline">& Creperie <span class="brand-location">Matthews, NC</span></span>
         </div>
       </a>
 
       <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-        ☰
+        <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#menu"></use></svg>
       </button>
 
       <ul class="nav-menu">
@@ -104,7 +104,7 @@
         Our full operational menu, daily availability, and current pricing are maintained on our official online ordering portal. View the complete live menu and order ahead for counter pickup.
       </p>
       <a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-lg">
-        VIEW CURRENT MENU & ORDER ONLINE ➔
+        VIEW CURRENT MENU & ORDER ONLINE <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg>
       </a>
     </div>
 
@@ -119,6 +119,155 @@
       </div>
     </div>
 
+    <nav class="menu-jump-nav" aria-label="Menu categories">
+      <a href="#breakfast-crepes">Breakfast Crepes</a>
+      <a href="#entree-crepes">Entree Crepes</a>
+      <a href="#sweet-treats">Sweet Treats</a>
+      <a href="#espresso">Espresso</a>
+      <a href="#house-specials">House Specials</a>
+      <a href="#coffee">Coffee</a>
+      <a href="#not-coffee">Not Coffee</a>
+      <a href="#loose-leaf-tea">Loose Leaf Tea</a>
+      <a href="#miscellaneous">Miscellaneous</a>
+    </nav>
+
+    <div class="menu-category-intro">
+      <p>Browse the current menu snapshot below. Prices, availability, modifiers, and ordering are maintained in the live Smart Online Order portal.</p>
+    </div>
+
+    <div class="menu-categories-wrapper" style="margin: 3.5rem 0;">
+      <section id="breakfast-crepes" class="menu-category-card" aria-labelledby="breakfast-crepes-title">
+        <div class="menu-category-header">
+          <h2 id="breakfast-crepes-title" class="menu-category-title"><svg class="icon icon-lg" aria-hidden="true" focusable="false"><use href="assets/icons.svg#crepe"></use></svg> Breakfast Crepes</h2>
+        </div>
+        <div class="menu-items-list">
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Build Your Own Crepe</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">The Greek Isles</h3></div><p class="menu-item-description">Egg, feta cheese, spinach, sauteed mushrooms, onions, and Kalamata olives.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Turkey, Bacon, Avocado</h3></div><p class="menu-item-description">Egg, cheddar cheese, turkey, bacon, avocado, tomato, and onion.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">El Rancho</h3></div><p class="menu-item-description">Egg, cheddar cheese, black beans, sweet red onions, sour cream, and salsa.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Florentine</h3></div><p class="menu-item-description">Egg, mozzarella cheese, sauteed mushrooms, onions, and organic baby spinach.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Eggs Benedict</h3></div><p class="menu-item-description">Sunny-side up egg, spinach, mushrooms, Swiss cheese, ham, and hollandaise sauce.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Hamster</h3></div><p class="menu-item-description">Egg, cheddar cheese, ham, and bacon.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">8am</h3></div><p class="menu-item-description">Egg, cheddar cheese, turkey sausage, tomato, and onion.</p></article>
+        </div>
+      </section>
+
+      <section id="entree-crepes" class="menu-category-card" aria-labelledby="entree-crepes-title">
+        <div class="menu-category-header">
+          <h2 id="entree-crepes-title" class="menu-category-title"><svg class="icon icon-lg" aria-hidden="true" focusable="false"><use href="assets/icons.svg#crepe"></use></svg> Entree Crepes</h2>
+        </div>
+        <div class="menu-items-list">
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">The Lean Machine</h3></div><p class="menu-item-description">Lean turkey, tomato, Kalamata olives, avocado, spinach, light feta cheese, and tzatziki sauce.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">The Gyro Crepe</h3></div><p class="menu-item-description">Gyro meat, feta cheese, tomato, onion, banana peppers, and tzatziki sauce.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Smokey Chipotle Chicken</h3></div><p class="menu-item-description">Grilled chicken breast, cheddar cheese, tomato, onion, lettuce, and chipotle aioli.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Philly Cheese Steak</h3></div><p class="menu-item-description">Steak, cheddar cheese, sauteed mushrooms, onions, bell peppers, and chipotle aioli.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Mediterranean</h3></div><p class="menu-item-description">Grilled chicken breast, mozzarella cheese, artichoke hearts, tomato, onion, and basil pesto.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Hamazing</h3></div><p class="menu-item-description">Ham, Swiss cheese, sauteed mushrooms, onion, lettuce, and mayo drizzle.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Cordon Bleu</h3></div><p class="menu-item-description">Grilled chicken breast, Swiss cheese, bacon, lettuce, tomato, and honey mustard.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">California Style BLT</h3></div><p class="menu-item-description">Bacon, lettuce, tomato, avocado, Swiss cheese, and mayo.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Build Your Own Crepe</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">3 Omegas</h3></div><p class="menu-item-description">Feta cheese, walnuts, black beans, onion, avocado, organic baby spinach, and basil pesto.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">The Normandy</h3></div></article>
+        </div>
+      </section>
+
+      <section id="sweet-treats" class="menu-category-card" aria-labelledby="sweet-treats-title">
+        <div class="menu-category-header">
+          <h2 id="sweet-treats-title" class="menu-category-title"><svg class="icon icon-lg" aria-hidden="true" focusable="false"><use href="assets/icons.svg#crepe"></use></svg> Sweet Treats</h2>
+        </div>
+        <div class="menu-items-list">
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Banana Fosters</h3></div><p class="menu-item-description">Bananas, pecans, caramel sauce, cream cheese, brown sugar, cinnamon, and vanilla ice cream.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Nutty Monkey</h3></div><p class="menu-item-description">Nutella, banana, peanut butter, walnuts, and chocolate sauce.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">S'more</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Build Your Own Dessert Crepe</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Bavarian Cream</h3></div><p class="menu-item-description">Homemade Bavarian cream, strawberries, butter, chocolate and strawberry drizzle, topped with whipped cream.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Caramel Apple Pie</h3></div><p class="menu-item-description">Granny Smith apples, brown sugar, cinnamon, and butter topped with caramel sauce, mixed nuts, and real whipped cream.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Royal Trinity</h3></div><p class="menu-item-description">Fresh bananas, sliced strawberries, Nutella, topped with real whipped cream, chocolate sauce, and powdered sugar.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Strawberries Shortcake</h3></div><p class="menu-item-description">Fresh sliced strawberries, sweetened cream cheese, graham crackers, whipped cream, powdered sugar, and strawberry sauce.</p></article>
+        </div>
+      </section>
+
+      <section id="espresso" class="menu-category-card" aria-labelledby="espresso-title">
+        <div class="menu-category-header">
+          <h2 id="espresso-title" class="menu-category-title"><svg class="icon icon-lg" aria-hidden="true" focusable="false"><use href="assets/icons.svg#coffee"></use></svg> Espresso</h2>
+        </div>
+        <div class="menu-items-list">
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">True Macchiato - 2oz</h3></div><p class="menu-item-description">Two shots of espresso with a dollop of foam.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Latte - 16oz</h3></div><p class="menu-item-description">Shots of espresso with steamed milk.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Americano - 16oz</h3></div><p class="menu-item-description">Shots of espresso with hot water.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Cappuccino - 16oz</h3></div><p class="menu-item-description">Shots of espresso with steamed milk and foam.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Cortado - 8 oz</h3></div><p class="menu-item-description">Two shots of espresso with a bit of steamed milk.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Caramel Macchiato - 16oz</h3></div><p class="menu-item-description">Two shots of espresso with flavored milk, whipped cream, and caramel on top.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Frappe - 16oz</h3></div><p class="menu-item-description">Cold blended espresso drink.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Breve - 16oz</h3></div><p class="menu-item-description">Two shots of espresso with steamed half and half.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Affogato - 16oz</h3></div><p class="menu-item-description">Two shots of espresso over ice cream.</p></article>
+        </div>
+      </section>
+
+      <section id="house-specials" class="menu-category-card" aria-labelledby="house-specials-title">
+        <div class="menu-category-header">
+          <h2 id="house-specials-title" class="menu-category-title"><svg class="icon icon-lg" aria-hidden="true" focusable="false"><use href="assets/icons.svg#coffee"></use></svg> House Specials</h2>
+        </div>
+        <div class="menu-items-list">
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Matcha Latte - 16oz</h3></div><p class="menu-item-description">Japanese matcha tea crafted with your choice of milk.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Rose Vanilla Latte - 16oz</h3></div><p class="menu-item-description">Rose and vanilla syrup with two shots of espresso and your choice of steamed milk, served with whipped cream and dried rose petals.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Golden Milk - 16oz</h3></div><p class="menu-item-description">Latte with turmeric, honey, and other spices.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Lavender Fields - 16oz</h3></div><p class="menu-item-description">Latte with lavender, honey, and lavender flowers.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Honeybun Latte - 16oz</h3></div><p class="menu-item-description">Latte with honey and cinnamon.</p></article>
+        </div>
+      </section>
+
+      <section id="coffee" class="menu-category-card" aria-labelledby="coffee-title">
+        <div class="menu-category-header">
+          <h2 id="coffee-title" class="menu-category-title"><svg class="icon icon-lg" aria-hidden="true" focusable="false"><use href="assets/icons.svg#coffee"></use></svg> Coffee</h2>
+        </div>
+        <div class="menu-items-list">
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Iced Coffee - 16oz</h3></div><p class="menu-item-description">Two shots of espresso with a bit of steamed milk.</p></article>
+        </div>
+      </section>
+
+      <section id="not-coffee" class="menu-category-card" aria-labelledby="not-coffee-title">
+        <div class="menu-category-header">
+          <h2 id="not-coffee-title" class="menu-category-title"><svg class="icon icon-lg" aria-hidden="true" focusable="false"><use href="assets/icons.svg#tea"></use></svg> Not Coffee</h2>
+        </div>
+        <div class="menu-items-list">
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Fruit Smoothie - 16oz</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Hot Chocolate - 16oz</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Sweet Chai Latte - 16oz</h3></div><p class="menu-item-description">Shots of espresso with steamed milk.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Matcha Tea Latte - 16oz</h3></div><p class="menu-item-description">Shots of espresso with steamed milk.</p></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Nesquik</h3></div></article>
+        </div>
+      </section>
+
+      <section id="loose-leaf-tea" class="menu-category-card" aria-labelledby="loose-leaf-tea-title">
+        <div class="menu-category-header">
+          <h2 id="loose-leaf-tea-title" class="menu-category-title"><svg class="icon icon-lg" aria-hidden="true" focusable="false"><use href="assets/icons.svg#tea"></use></svg> Loose Leaf Tea</h2>
+        </div>
+        <div class="menu-items-list">
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Loose Leaf Tea</h3></div><p class="menu-item-description">Loose leaf tea brewed to order. Small or large pot. Choose from black, oolong, green, white, rooibos, and herbal teas.</p></article>
+        </div>
+      </section>
+
+      <section id="miscellaneous" class="menu-category-card" aria-labelledby="miscellaneous-title">
+        <div class="menu-category-header">
+          <h2 id="miscellaneous-title" class="menu-category-title"><svg class="icon icon-lg" aria-hidden="true" focusable="false"><use href="assets/icons.svg#info"></use></svg> Miscellaneous</h2>
+        </div>
+        <div class="menu-items-list">
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Teapot (Large)</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Teapot (Small)</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Soda</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Pellegrino</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Loose Tea</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Juice</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Milk</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Gift Card</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Bulk Coffee</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Bottled Water</h3></div></article>
+          <article class="menu-item-row"><div class="menu-item-top"><h3 class="menu-item-name">Fruit</h3></div></article>
+        </div>
+      </section>
+    </div>
+
     <!-- Supplied To-Go Menu Visual -->
     <section class="menu-poster" aria-labelledby="togo-menu-title">
       <figure>
@@ -126,10 +275,10 @@
         <figcaption>Supplied to-go menu visual. Prices and availability may change.</figcaption>
       </figure>
       <div>
-        <span class="section-eyebrow">To-Go Menu</span>
+        <span class="section-eyebrow">To-Go Menu Reference</span>
         <h2 id="togo-menu-title" class="section-title" style="font-size: 1.85rem;">A quick look at cafe favorites</h2>
-        <p class="section-desc" style="margin-bottom: 1.4rem;">Use this visual for a quick overview of coffee, espresso, tea, and hot drink categories. For current pricing, availability, dietary details, and ordering, use Smart Online Order.</p>
-        <a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Live Menu & Order ↗</a>
+        <p class="section-desc" style="margin-bottom: 1.4rem;">This supplied artwork is a visual reference. For current pricing, modifiers, availability, dietary details, and ordering, use Smart Online Order.</p>
+        <a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Live Menu & Order <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg></a>
       </div>
     </section>
 
@@ -148,71 +297,18 @@
       </figure>
     </div>
 
-    <!-- Menu Categories (High-Level Only) -->
-    <div class="menu-categories-wrapper" style="margin: 3.5rem 0;">
-
-      <!-- Category 1: Sweet Crepes -->
-      <div class="menu-category-card">
-        <div class="menu-category-header">
-          <h2 class="menu-category-title">
-            <span>🥞</span> Sweet Crepes
-          </h2>
-          <span class="menu-category-badge">Gluten-Free & Vegan Options Available</span>
-        </div>
-        <p class="menu-category-desc">
-          A wide variety of sweet crepes featuring fresh fruits, chocolate spreads, sweet glazes, and dessert toppings.
-        </p>
-      </div>
-
-      <!-- Category 2: Savory Crepes -->
-      <div class="menu-category-card">
-        <div class="menu-category-header">
-          <h2 class="menu-category-title">
-            <span>🍳</span> Savory Crepes
-          </h2>
-          <span class="menu-category-badge">Breakfast & Lunch Options</span>
-        </div>
-        <p class="menu-category-desc">
-          Hearty breakfast and lunch crepes prepared with savory meats, cheeses, and vegetables.
-        </p>
-      </div>
-
-      <!-- Category 3: Locally Roasted Coffee -->
-      <div class="menu-category-card">
-        <div class="menu-category-header">
-          <h2 class="menu-category-title">
-            <span>☕</span> Locally Roasted Coffee
-          </h2>
-          <span class="menu-category-badge">Roasted in Charlotte</span>
-        </div>
-        <p class="menu-category-desc">
-          Specialty coffees roasted locally in Charlotte, including hot brewed coffee, espresso drinks, lattes, and iced coffee options.
-        </p>
-      </div>
-
-      <!-- Category 4: Loose-Leaf Tea -->
-      <div class="menu-category-card">
-        <div class="menu-category-header">
-          <h2 class="menu-category-title">
-            <span>🍵</span> Loose-Leaf Tea
-          </h2>
-          <span class="menu-category-badge">Hot & Iced Selections</span>
-        </div>
-        <p class="menu-category-desc">
-          A variety of loose-leaf green, black, and herbal teas steeped to order.
-        </p>
-      </div>
-
-    </div>
-
     <!-- Bottom Action CTA -->
     <div style="text-align: center; margin-bottom: 5rem;">
       <a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
-        VIEW CURRENT MENU & ORDER ONLINE ➔
+        VIEW CURRENT MENU & ORDER ONLINE <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg>
       </a>
     </div>
 
   </main>
+
+  <div class="mobile-order-bar" aria-label="Mobile ordering shortcut">
+    <a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer" class="btn btn-gold">Order Online <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg></a>
+  </div>
 
   <!-- Site Footer -->
   <footer class="site-footer">
@@ -237,27 +333,27 @@
             <li><a href="menu.html">Menu Overview</a></li>
             <li><a href="about.html">Our Story</a></li>
             <li><a href="contact.html">Visit & Contact</a></li>
-            <li><a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer">Order Online ↗</a></li>
+            <li><a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer">Order Online <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg></a></li>
           </ul>
         </div>
 
         <div class="footer-col">
           <h4>Visit & Contact</h4>
           <div class="footer-info-item">
-            <span>📍</span>
+            <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#location"></use></svg>
             <span>131 Matthews Station St, Suite 1-E<br>Matthews, NC 28105</span>
           </div>
           <div class="footer-info-item">
-            <span>🕒</span>
+            <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#clock"></use></svg>
             <span>Open Daily: 9:00 AM – 3:00 PM</span>
           </div>
           <div class="footer-info-item">
-            <span>📞</span>
+            <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg>
             <a href="tel:19807010566" style="color: var(--color-gold);">(980) 701-0566</a>
           </div>
           <div class="footer-social">
-            <a href="https://www.facebook.com/p/Royal-Cafe-Creperie-100063472723152/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">f</a>
-            <a href="https://www.instagram.com/royalcrepes" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">◎</a>
+            <a href="https://www.facebook.com/p/Royal-Cafe-Creperie-100063472723152/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#facebook"></use></svg></a>
+            <a href="https://www.instagram.com/royalcrepes" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#instagram"></use></svg></a>
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@ This is the dedicated production repository for **Royal Cafe & Creperie** (`ROYA
 ```text
 royal-cafe-creperie/
 ├── index.html          # Homepage with conversion CTAs and core offerings
-├── menu.html           # High-level category menu landing with Smart Online Order CTA
+├── menu.html           # Verified HTML menu snapshot with Smart Online Order CTAs
 ├── about.html          # Verified family, ownership, and service facts
 ├── contact.html        # Verified hours, address, maps, and real Netlify contact form
 ├── thank-you.html      # Form submission confirmation page
@@ -29,6 +29,7 @@ royal-cafe-creperie/
 ├── assets/
 │   ├── css/
 │   │   └── styles.css  # Warm Burgundy & Amber Gold responsive design system
+│   ├── icons.svg        # Local accessible SVG icon sprite
 │   ├── js/
 │   │   └── site.js     # Centralized business config and navigation interactions
 │   └── images/
@@ -66,3 +67,9 @@ To prevent broken links and preserve SEO rankings from the legacy Weebly website
 - The supplied no-price to-go menu visual is presented as a reference; Smart Online Order remains the source of live pricing, availability, and ordering.
 - Instagram is linked at [@royalcrepes](https://www.instagram.com/royalcrepes) through a profile-forward “Latest on Instagram” section. A live feed is not embedded because client/API credentials were not supplied.
 - The Edge Function adds `X-Robots-Tag: noindex, nofollow` only on `*.netlify.app` demo hosts; future custom-domain production hosts are not intentionally noindexed.
+
+## Menu Snapshot & Interface
+
+- `menu.html` contains the current implementation-time Smart Online Order category and item snapshot without prices; the live portal remains authoritative for current pricing, modifiers, availability, and checkout.
+- Category navigation is anchored for mobile and desktop, with a mobile-only sticky ordering shortcut.
+- Interface controls and social links use the local SVG sprite rather than emoji or text glyphs.

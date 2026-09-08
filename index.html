@@ -60,21 +60,21 @@
   }
   </script>
 </head>
-<body>
+<body class="has-mobile-order-bar">
 
   <!-- Top Announcement Bar -->
   <div class="top-bar">
     <div class="container top-bar-inner">
       <div class="top-bar-item">
-        <span>🕒</span>
+        <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#clock"></use></svg>
         <span>Open Daily: 9:00 AM – 3:00 PM</span>
       </div>
       <div class="top-bar-item">
-        <span>📍</span>
+        <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#location"></use></svg>
         <span>131 Matthews Station St, Suite 1-E, Matthews, NC</span>
       </div>
       <div class="top-bar-item">
-        <span>📞</span>
+        <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg>
         <a href="tel:19807010566">(980) 701-0566</a>
       </div>
     </div>
@@ -86,12 +86,12 @@
       <a href="index.html" class="brand-link" aria-label="Royal Cafe & Creperie Home">
         <div class="brand-info">
           <span class="brand-title">Royal Cafe</span>
-          <span class="brand-tagline">& Creperie • Matthews, NC</span>
+          <span class="brand-tagline">& Creperie <span class="brand-location">Matthews, NC</span></span>
         </div>
       </a>
 
       <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-        ☰
+        <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#menu"></use></svg>
       </button>
 
       <ul class="nav-menu">
@@ -111,7 +111,10 @@
 
   <!-- Hero Section -->
   <section class="hero-section">
-    <img class="hero-image" src="assets/images/client/savory-crepes.webp" width="1600" height="1200" alt="Savory crepes with egg, greens, and ham served at Royal Cafe & Creperie" loading="eager" fetchpriority="high" decoding="async">
+    <picture class="hero-media">
+      <source srcset="assets/images/client/savory-crepes.webp" type="image/webp">
+      <img class="hero-image" src="assets/images/client/hero-crepes.jpg" width="1600" height="1200" alt="Savory crepes with egg, greens, and ham served at Royal Cafe & Creperie" loading="eager" fetchpriority="high" decoding="async">
+    </picture>
     <div class="container hero-content">
       <div class="hero-badge">Historic Downtown Matthews, NC</div>
       <h1 class="hero-title">Sweet & Savory Crepes, Locally Roasted Coffee & Teas</h1>
@@ -143,14 +146,14 @@
           <span class="section-eyebrow">Neighborhood Cafe</span>
           <h2 class="section-title">What We Offer</h2>
           <p class="section-desc">
-            A relaxed mom-and-pop cafe focused on friendly service, comforting food, and supporting local small businesses.
+            A family-owned cafe serving sweet and savory crepes, locally roasted Charlotte coffee, and loose-leaf teas in Downtown Matthews.
           </p>
         </div>
 
         <div class="grid-3">
           <!-- Card 1: Crepes -->
           <div class="card">
-            <div class="card-icon">🥞</div>
+            <div class="card-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#crepe"></use></svg></div>
             <h3 class="card-title">Sweet & Savory Crepes</h3>
             <p class="card-text">
               A wide selection of sweet and savory crepes, with gluten-free and vegan options available to suit your preferences.
@@ -159,7 +162,7 @@
 
           <!-- Card 2: Local Coffee -->
           <div class="card">
-            <div class="card-icon">☕</div>
+            <div class="card-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#coffee"></use></svg></div>
             <h3 class="card-title">Locally Roasted Coffee</h3>
             <p class="card-text">
               Specialty coffees roasted locally in Charlotte, served as espresso drinks, hot drip coffee, and iced beverages.
@@ -168,7 +171,7 @@
 
           <!-- Card 3: Loose Leaf Teas -->
           <div class="card">
-            <div class="card-icon">🍵</div>
+            <div class="card-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#tea"></use></svg></div>
             <h3 class="card-title">Loose-Leaf Teas</h3>
             <p class="card-text">
               A variety of loose-leaf green, black, and herbal teas steeped hot or iced for a comforting drink.
@@ -241,7 +244,7 @@
             </p>
             <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
               <a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
-                View Menu & Order Online ➔
+                View Menu & Order Online <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#arrow"></use></svg>
               </a>
               <a href="tel:19807010566" class="btn btn-outline">
                 Call (980) 701-0566
@@ -255,10 +258,10 @@
               Whether you are stopping by on your morning walk or picking up lunch for the office, we make it easy to order your favorite crepes, coffees, and teas.
             </p>
             <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.95rem; color: var(--color-text-muted);">
-              <li>✓ Sweet and savory options</li>
-              <li>✓ Gluten-free & vegan options available</li>
-              <li>✓ Coffee roasted locally in Charlotte</li>
-              <li>✓ Fast counter pickup in Downtown Matthews</li>
+              <li><svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#check"></use></svg> Sweet and savory options</li>
+              <li><svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#check"></use></svg> Gluten-free & vegan options available</li>
+              <li><svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#check"></use></svg> Coffee roasted locally in Charlotte</li>
+              <li><svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#check"></use></svg> Fast counter pickup in Downtown Matthews</li>
             </ul>
           </div>
         </div>
@@ -273,33 +276,33 @@
             <span class="section-eyebrow">Family-Owned</span>
             <h2 class="section-title" style="font-size: 1.85rem;">A Neighborhood Gathering Place</h2>
             <p class="card-text">
-              Royal Cafe & Creperie is a family-owned mom-and-pop cafe in historic Downtown Matthews. Owned by Alexis Mizrahi-Botero, we take pride in warm hospitality, long-term customer relationships, and welcoming our local community.
+              Royal Cafe & Creperie is a family-owned cafe in historic Downtown Matthews. Client materials identify Alexis and Elena as the founding mother-and-daughter team, with Alexis Mizrahi-Botero listed as the owner/operator.
             </p>
             <p class="card-text" style="margin-bottom: 1.5rem;">
-              Stop by for morning coffee, enjoy lunch with friends, or pick up a quick bite on the go.
+              The cafe serves sweet and savory crepes, locally roasted Charlotte coffee, and loose-leaf teas.
             </p>
             <a href="about.html" class="btn btn-outline" style="font-weight: 700;">
-              Read Our Story ➔
+              Read Our Story <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#arrow"></use></svg>
             </a>
           </div>
 
           <div class="info-card">
             <h3 class="card-title" style="margin-bottom: 1.25rem;">Visit the Cafe</h3>
             <div class="info-group">
-              <div class="info-label">📍 Cafe Address</div>
+              <div class="info-label"><svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#location"></use></svg> Cafe Address</div>
               <div class="info-value">
                 131 Matthews Station Street, Suite 1-E<br>
                 Downtown Matthews, NC 28105
               </div>
             </div>
             <div class="info-group">
-              <div class="info-label">🕒 Hours</div>
+              <div class="info-label"><svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#clock"></use></svg> Hours</div>
               <div class="info-value">
                 <strong>Everyday:</strong> 9:00 AM – 3:00 PM
               </div>
             </div>
             <div class="info-group">
-              <div class="info-label">📞 Direct Phone</div>
+              <div class="info-label"><svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg> Direct Phone</div>
               <div class="info-value">
                 <a href="tel:19807010566" style="color: var(--color-red); font-weight: 700;">(980) 701-0566</a>
               </div>
@@ -321,7 +324,7 @@
             <h2 id="instagram-title" class="section-title" style="font-size: 1.8rem; margin-bottom: 0.45rem;">Latest on Instagram</h2>
             <p class="section-desc" style="margin: 0;">See the cafe's latest specials, drinks, and daily updates from <span class="instagram-handle">@royalcrepes</span>.</p>
           </div>
-          <a href="https://www.instagram.com/royalcrepes" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visit Instagram ↗</a>
+          <a href="https://www.instagram.com/royalcrepes" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visit Instagram <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg></a>
         </div>
       </div>
     </section>
@@ -332,16 +335,16 @@
         <div class="press-title">Featured In</div>
         <div class="press-grid">
           <a href="https://www.ourstate.com/royal-cafe-creperie-matthews/" target="_blank" rel="noopener noreferrer" class="press-item">
-            <span class="press-item-icon">★</span>
-            <span>Our State Magazine ↗</span>
+            <span class="press-item-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#press"></use></svg></span>
+            <span>Our State Magazine <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg></span>
           </a>
           <a href="https://www.charlottestories.com/top-50-places-eat-charlotte/" target="_blank" rel="noopener noreferrer" class="press-item">
-            <span class="press-item-icon">★</span>
-            <span>Charlotte Stories Top 50 ↗</span>
+            <span class="press-item-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#press"></use></svg></span>
+            <span>Charlotte Stories Top 50 <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg></span>
           </a>
           <a href="https://www.wbtv.com/story/34983991/recipe-bavarian-cream-crepes-from-royal-cafe-and-creperie" target="_blank" rel="noopener noreferrer" class="press-item">
-            <span class="press-item-icon">★</span>
-            <span>WBTV Morning Break ↗</span>
+            <span class="press-item-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#press"></use></svg></span>
+            <span>WBTV Morning Break <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg></span>
           </a>
         </div>
       </div>
@@ -372,27 +375,27 @@
             <li><a href="menu.html">Menu Overview</a></li>
             <li><a href="about.html">Our Story</a></li>
             <li><a href="contact.html">Visit & Contact</a></li>
-            <li><a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer">Order Online ↗</a></li>
+            <li><a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer">Order Online <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg></a></li>
           </ul>
         </div>
 
         <div class="footer-col">
           <h4>Visit & Contact</h4>
           <div class="footer-info-item">
-            <span>📍</span>
+            <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#location"></use></svg>
             <span>131 Matthews Station St, Suite 1-E<br>Matthews, NC 28105</span>
           </div>
           <div class="footer-info-item">
-            <span>🕒</span>
+            <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#clock"></use></svg>
             <span>Open Daily: 9:00 AM – 3:00 PM</span>
           </div>
           <div class="footer-info-item">
-            <span>📞</span>
+            <svg class="icon icon-sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg>
             <a href="tel:19807010566" style="color: var(--color-gold);">(980) 701-0566</a>
           </div>
           <div class="footer-social">
-            <a href="https://www.facebook.com/p/Royal-Cafe-Creperie-100063472723152/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">f</a>
-            <a href="https://www.instagram.com/royalcrepes" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">◎</a>
+            <a href="https://www.facebook.com/p/Royal-Cafe-Creperie-100063472723152/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#facebook"></use></svg></a>
+            <a href="https://www.instagram.com/royalcrepes" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#instagram"></use></svg></a>
           </div>
         </div>
       </div>
@@ -403,6 +406,12 @@
       </div>
     </div>
   </footer>
+
+  <div class="mobile-order-bar" aria-label="Mobile ordering shortcut">
+    <a href="https://royalcreperie.smartonlineorder.com" target="_blank" rel="noopener noreferrer" class="btn btn-gold">
+      Order Online <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg>
+    </a>
+  </div>
 
   <!-- Scripts -->
   <script src="assets/js/site.js"></script>
