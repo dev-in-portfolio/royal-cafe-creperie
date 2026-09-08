@@ -22,7 +22,7 @@ This is the dedicated production repository for **Royal Cafe & Creperie** (`ROYA
 royal-cafe-creperie/
 ├── index.html          # Homepage with conversion CTAs and core offerings
 ├── menu.html           # High-level category menu landing with Smart Online Order CTA
-├── about.html          # Family roots, philosophy, and pending owner narrative
+├── about.html          # Verified family, ownership, and service facts
 ├── contact.html        # Verified hours, address, maps, and real Netlify contact form
 ├── thank-you.html      # Form submission confirmation page
 ├── 404.html            # Custom on-brand 404 error page
@@ -33,11 +33,10 @@ royal-cafe-creperie/
 │   │   └── site.js     # Centralized business config and navigation interactions
 │   └── images/
 │       ├── favicon.svg # Vector brand mark favicon
-│       ├── hero.jpg    # Web-optimized hero photography
-│       ├── food/       # Prepared folder for client food photography
-│       ├── interior/   # Prepared folder for client interior photography
-│       └── story/      # Prepared folder for client founder/family photography
+│       ├── hero.jpg    # Original site hero asset retained for compatibility
+│       └── client/     # Optimized client-supplied WebP/JPEG photography and menu visual
 ├── netlify.toml        # Build rules, security headers, and legacy Weebly 301 redirects
+├── netlify/edge-functions/demo-noindex.js # Demo-host-only noindex response header
 ├── robots.txt          # Search engine crawler instructions
 ├── sitemap.xml         # XML sitemap
 └── README.md           # Repository documentation
@@ -60,3 +59,10 @@ To prevent broken links and preserve SEO rankings from the legacy Weebly website
 
 1. **Food Orders:** Routed directly to the client's live `Smart Online Order` portal (`https://royalcreperie.smartonlineorder.com`) for immediate kitchen ticket printing and front counter pickup.
 2. **Contact & Inquiries:** Handled by native Netlify Forms with honeypot spam protection (`bot-field`). Submissions redirect to `/thank-you.html`.
+
+## Client Media & Social Links
+
+- Client-supplied photography is optimized under `assets/images/client/` and used across the homepage, menu, about, and contact pages with semantic alt text and responsive loading behavior.
+- The supplied no-price to-go menu visual is presented as a reference; Smart Online Order remains the source of live pricing, availability, and ordering.
+- Instagram is linked at [@royalcrepes](https://www.instagram.com/royalcrepes) through a profile-forward “Latest on Instagram” section. A live feed is not embedded because client/API credentials were not supplied.
+- The Edge Function adds `X-Robots-Tag: noindex, nofollow` only on `*.netlify.app` demo hosts; future custom-domain production hosts are not intentionally noindexed.

@@ -16,7 +16,8 @@
     hours: 'Everyday: 9:00 AM – 3:00 PM',
     orderUrl: 'https://royalcreperie.smartonlineorder.com',
     mapsUrl: 'https://maps.google.com/?q=131+Matthews+Station+Street+Suite+1-E+Matthews+NC+28105',
-    facebookUrl: 'https://www.facebook.com/royal.creperie'
+    facebookUrl: 'https://www.facebook.com/p/Royal-Cafe-Creperie-100063472723152/',
+    instagramUrl: 'https://www.instagram.com/royalcrepes'
   };
 
   document.addEventListener('DOMContentLoaded', function() {

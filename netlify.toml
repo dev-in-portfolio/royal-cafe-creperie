@@ -1,6 +1,10 @@
 [build]
   publish = "."
 
+[[edge_functions]]
+  path = "/*"
+  function = "demo-noindex"
+
 [[headers]]
   for = "/*"
   [headers.values]
